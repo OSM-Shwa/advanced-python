@@ -27,7 +27,7 @@ def sample_function(input_str: str) -> int:
         return 1
 
 
-def main():
+def main() -> None:
     i: int = 0
     for input_str in fuzzer():
         i += 1
