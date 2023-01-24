@@ -16,7 +16,9 @@ class Fruit:
     def fruit_name(self):
         print(f'"{self._name}" was deleted.')
         del self._name
-
+        
+if __name__ == '__main__':
+    
 
 if __name__ == "__main__":
     fruit = Fruit("Banana")
