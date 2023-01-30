@@ -8,7 +8,7 @@ lower = "abcdefghijklmnopqrstuvwxyz"
 upper = lower.upper()
 symbols = "!@#$%^&*()-_=+]}[{;:/?.>,<"
 numbers = "1234567890"
-all = lower + upper + symbols + numbers
+all = "".join([lower,upper,symbols,numbers])
 
 # set password length
 length = 20
