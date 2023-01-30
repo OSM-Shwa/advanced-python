@@ -1,5 +1,5 @@
 class Polygon:
-    def __init__(self, sides: list):
+    def __init__(self, sides: list[int]):
         self.sides = sides
 
     def display_info(self):
