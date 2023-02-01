@@ -30,3 +30,18 @@ actions = {1:do_one, 2:do_two, 3:do_three}
 actions.get(x, do_default)(x)
 
 # https://www.youtube.com/shorts/UFdEp9wrtOY
+
+items = {
+    "grocery":0.2,
+    "food":0.1,
+    "clothes":0.3,
+    "makeup":0.05,
+    "accessories":0.4
+}
+
+def calculate_tax(item):
+    return items.get(item, -1)
+
+print(calculate_tax("food"))
+
+# https://www.youtube.com/shorts/tawJ8ihSChA
