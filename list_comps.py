@@ -49,6 +49,7 @@ print(words_without_e)
 def add_word(word: str):
     return word + "text"
 
+(x := 5) 
 
 new_words = list(map(add_word, ridiculous_words))
 print(new_words)
