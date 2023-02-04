@@ -133,4 +133,3 @@ def shortcut10():
     print(list)
 
 # https://www.youtube.com/watch?v=CssrFJGH_dU
-
