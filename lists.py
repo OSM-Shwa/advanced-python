@@ -4,14 +4,18 @@ print(my_list)
 
 
 # make a copy of a list
-list_copy = my_list.copy()
-list_copy2 = list(my_list)
-list_copy3 = list_copy[:]
+def list_copying():
+	list_copy = my_list.copy()
+	list_copy2 = list(my_list)
+	list_copy3 = list_copy[:]
 
 # list comprehension
-nums = [1, 2, 3, 4, 5, 6, 7]
-squares = [i * i for i in nums]
-print(squares)
+def extracted_method():
+    nums = [1, 2, 3, 4, 5, 6, 7]
+    squares = [i * i for i in nums]
+    print(squares)
+
+extracted_method()
 
 # reverses the list
 my_list.reverse()
